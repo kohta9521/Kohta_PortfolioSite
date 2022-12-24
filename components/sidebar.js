@@ -1,17 +1,28 @@
-import { FaGithub } from "react-icons/fa"
-import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Sidebar() {
     return (
         <>
-        <div className="w-full h-50">
-            <h1 className="text-center p-2">Sidebar</h1>
-
-            <Link href="https://github.com/kohta9521">
-                <FaGithub />            
-            </Link>
-
-        </div>
+            <div className="w-full h-full">
+                <dh-component>
+                    <div className="flex flex-no-wrap">
+                        <div className='w-64 absolute sm:relative bg-gray-800 shadow md:h-full flex-col justify-between hidden sm:flex'>
+                            <div className="px-8">
+                                <div className="h-16 w-full flex items-center">
+                                    <Image
+                                        src="/enterlogo.png"
+                                        aria-label="Enter Logo"
+                                        role="img"
+                                        width="144"
+                                        height="30"
+                                        viewBox="0 0 144 30"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </dh-component>
+            </div>
         </>
     )
 }
