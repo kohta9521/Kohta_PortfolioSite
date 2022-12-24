@@ -18,7 +18,7 @@ export default function Sidebar() {
                                         viewBox="0 0 144 30"
                                     />
                                 </div>
-                                <ul className='mt-12'>
+                                <ul className='mt-20'>
                                     <li className='flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6'>
                                     <a href="javascript:void(0)" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid" width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

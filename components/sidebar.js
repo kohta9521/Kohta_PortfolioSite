@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Sidebar() {
     return (
         <>
-        <div className='w-full h-full bg-black'>
+        <div className='w-full h-1/2 bg-black'>
             <div className="w-full h-full">
                 <dh-component>
                     <div className="flex flex-no-wrap">
@@ -19,7 +19,7 @@ export default function Sidebar() {
                                         viewBox="0 0 144 30"
                                     />
                                 </div>
-                                <ul className='mt-12'>
+                                <ul className='mt-40 mb-40'>
                                     <li className='flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6'>
                                     <a href="javascript:void(0)" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid" width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -96,7 +96,7 @@ export default function Sidebar() {
                                     </a>
                                 </li>
                                 </ul>
-                                <div class="flex justify-center mt-48 mb-4 w-full">
+                                {/* <div class="flex justify-center mt-48 mb-4 w-full">
                                     <div class="relative">
                                         <div class="text-gray-300 absolute ml-4 inset-0 m-auto w-4 h-4">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -107,9 +107,9 @@ export default function Sidebar() {
                                         </div>
                                         <input class="bg-gray-700 focus:outline-none focus:ring-1 focus:ring-gray-100 rounded w-full text-sm text-gray-300 placeholder-gray-400 bg-gray-100 pl-10 py-2" type="text" placeholder="Search" />
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div class="px-8 border-t border-black">
+                                <div class="px-8  mt-40 mb-0 border-t border-white">
                                     <ul class="w-full flex items-center justify-between bg-black">
                                         <li class="cursor-pointer text-white pt-5 pb-3">
                                             <button aria-label="show notifications" class="focus:outline-none focus:ring-2 rounded focus:ring-gray-300">
