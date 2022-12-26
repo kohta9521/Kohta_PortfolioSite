@@ -23,7 +23,7 @@ export default function Header() {
             <div className="w-1/5 h-full">
                 <ul className="flex justify-around h-full">
                     <li className="w-30 h-full mt-6">
-                        <Link href="/">
+                        <Link href="https://qiita.com/kohta9521">
                             <SiQiita 
                                 className=" text-3xl"
                                 color="white"
@@ -31,7 +31,7 @@ export default function Header() {
                         </Link>
                     </li>
                     <lii className="w-30 h-full mt-6">
-                        <Link href="/">
+                        <Link href="https://zenn.dev/kohta9521">
                             <SiZenn 
                                 className=" text-2xl"
                                 color="white"
@@ -39,7 +39,7 @@ export default function Header() {
                         </Link>
                     </lii>
                     <lii className="w-30 h-full mt-6">
-                        <Link href="/">
+                        <Link href="https://github.com/kohta9521">
                             <AiOutlineGithub 
                                 className="text-2xl"
                                 color="white"
