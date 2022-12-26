@@ -9,7 +9,7 @@ import { AiOutlineGithub } from 'react-icons/Ai';
 export default function Header() {
     return (
         <>
-        <div className="w-full h-20 bg-black max-h-32 flex justify-between z-20 absolute">
+        <div className="w-full h-20 bg-indigo-600 bg-opacity-10  max-h-32 flex justify-between z-20 absolute">
             <div className="w-1/6 h-full">
                 {/* <Image
                     className="object-cover mt-2 fixed"
@@ -19,7 +19,7 @@ export default function Header() {
                     height={230}
                     objectFit="contain"
                 /> */}
-                <h2 className="h-full w-auto text-2xl mt-5 ml-10 text-white">KohtaPortfolio</h2>
+                <h2 className="h-full w-auto text-xl mt-6 ml-2 text-white">KohtaPortfolio</h2>
             </div>
             <div className="w-1/5 h-full">
                 <ul className="flex justify-around h-full">
