@@ -1,7 +1,7 @@
 export default function Profile() {
     return (
         <>
-        <div className="absolute t-100 w-500 h-20 bg-gray-500">
+        <div className="absolute left-40 top-28 w-2/6 h-2/5 bg-indigo-600 bg-opacity-20 rounded-lg">
             <h1 className="text-2xl">Profile</h1>
         </div>
         </>
