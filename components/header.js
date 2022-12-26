@@ -12,11 +12,11 @@ export default function Header() {
         <div className="w-full h-20 bg-black max-h-32 flex justify-between">
             <div className="w-1/6 h-full">
                 <Image
-                    className="object-cover w-full mt-0.5"
+                    className="object-cover mt-2 fixed"
                     src={"/logo.jpg"}
                     alt={"ロゴ画像"}
-                    width={550}
-                    height={250}
+                    width={220}
+                    height={230}
                     objectFit="contain"
                 />
             </div>
