@@ -8,7 +8,7 @@ import { AiFillTwitterSquare } from 'react-icons/Ai';
 export default function Sidebar() {
     return (
         <>
-            <div className='absolute top-0 z-0  h-screen w-36 bg-black'>
+            <div className='absolute top-0 z-0  h-screen w-36  bg-indigo-600 bg-opacity-10'>
                 <div className='w-full h-auto mt-56'>
                     <ul>
                         <li className='block w-full text-center text-xl font-mono'>
