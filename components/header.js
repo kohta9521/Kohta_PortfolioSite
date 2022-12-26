@@ -11,14 +11,15 @@ export default function Header() {
         <>
         <div className="w-full h-20 bg-black max-h-32 flex justify-between z-20 absolute">
             <div className="w-1/6 h-full">
-                <Image
+                {/* <Image
                     className="object-cover mt-2 fixed"
                     src={"/logo.jpg"}
                     alt={"ロゴ画像"}
                     width={220}
                     height={230}
                     objectFit="contain"
-                />
+                /> */}
+                <h2 className="h-full w-auto text-2xl mt-5 ml-10 text-white">KohtaPortfolio</h2>
             </div>
             <div className="w-1/5 h-full">
                 <ul className="flex justify-around h-full">
