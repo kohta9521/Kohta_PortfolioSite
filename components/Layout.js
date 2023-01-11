@@ -1,7 +1,13 @@
-export default function Layout( { children } ) {
+// components import area
+import Head from "../components/head"
+import Footer from "../components/footer"
+
+
+
+export default function Layout( { children, title="Kohta Portfolio" } ) {
     return (
-        <div className="w-full h-5 ">
-            Here is new website page!!!
-        </div>
+        <>
+        
+        </>
     )
 }
